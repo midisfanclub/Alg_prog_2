@@ -12,3 +12,4 @@ C:\Users\Alice\Desktop\SENAC\alg_prog_2\aula_1\obj\Debug\net8.0\refint\aula_1.dl
 C:\Users\Alice\Desktop\SENAC\alg_prog_2\aula_1\obj\Debug\net8.0\aula_1.pdb
 C:\Users\Alice\Desktop\SENAC\alg_prog_2\aula_1\obj\Debug\net8.0\aula_1.genruntimeconfig.cache
 C:\Users\Alice\Desktop\SENAC\alg_prog_2\aula_1\obj\Debug\net8.0\ref\aula_1.dll
+C:\Users\Alice\Desktop\SENAC\alg_prog_2\aula_1\obj\Debug\net8.0\aula_1.sourcelink.json
