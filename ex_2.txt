@@ -1,0 +1,17 @@
+﻿namespace aula_1;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Escrever("Bruno", 34);
+        Escrever("Hellen", 45);
+    }
+
+    public static void Escrever(string nome, int idade) 
+    {
+        Console.WriteLine($"oi {nome}, você tem {idade} anos?");
+    }
+
+    
+}

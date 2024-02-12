@@ -1,0 +1,19 @@
+namespace aula_1;
+
+class Contas
+{
+    static void Main(string[] args)
+    {
+        int a = Somar(5,3);
+        int b = Somar(15,6);
+
+        Console.WriteLine($"A soma de 5 e 3 é {a}");
+        Console.WriteLine($"15 + 5 = {b}");
+    }
+
+    public static int Somar(int n1, int n2) 
+    {
+        int soma = n1 + n2;
+        return soma;
+    }
+}
