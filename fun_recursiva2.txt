@@ -1,0 +1,27 @@
+﻿namespace aula_1;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Contagem(0, 15);
+
+    }
+
+
+    public static void Contagem(int inicio, int fim)
+    {
+        if (inicio == fim + 1) //sem fim + 1 fica 14 // ou (inicio >= fim + 1) ou (inicio > fim)
+        {
+            return;
+        }
+        
+        Console.WriteLine(inicio);
+        Contagem(inicio + 1, fim);
+
+
+    }
+
+}
+
+

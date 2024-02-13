@@ -1,0 +1,27 @@
+﻿namespace aula_1;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Contagem(15);
+
+    }
+
+
+    public static void Contagem(int n)
+    {
+        if (n < 0)
+        {
+            return;
+        }
+        
+        Console.WriteLine(n);
+        Contagem(n - 1);
+
+
+    }
+
+}
+
+
