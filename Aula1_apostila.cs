@@ -1,11 +1,13 @@
-﻿namespace aula_1;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 class Program
 {
-  
-    public static void Main(string[] args) {
+    static void Media(string[] args) {
     
-    Console.WriteLine("Quantos alunos há na turma?");
+    Console.WriteLine("Quantos alunos há na turma?\n");
     int tamanho = Convert.ToInt32(Console.ReadLine());
     double[] notas = new double [tamanho];
 
@@ -19,7 +21,7 @@ class Program
     double soma = 0;
     for (int i = 0; i < notas.Length; i++)
     {
-        Console.WriteLine("Nota do aluno " + (i + 1) + " :" + notas[i]);
+        Console.WriteLine("Nota do aluno " + (i + 1) + ":" + notas[i]);
         soma += notas[i];
     }
 
