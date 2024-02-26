@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alice\\Desktop\\SENAC\\alg_prog_2\\aula_2\\aula_2.csproj",
+      "projectUniqueName": "C:\\Users\\Alice\\Desktop\\SENAC\\alg_prog_2\\web2\\aula_2.csproj",
       "projectName": "aula_2",
-      "projectPath": "C:\\Users\\Alice\\Desktop\\SENAC\\alg_prog_2\\aula_2\\aula_2.csproj",
+      "projectPath": "C:\\Users\\Alice\\Desktop\\SENAC\\alg_prog_2\\web2\\aula_2.csproj",
       "packagesPath": "C:\\Users\\Alice\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alice\\Desktop\\SENAC\\alg_prog_2\\aula_2\\obj\\",
+      "outputPath": "C:\\Users\\Alice\\Desktop\\SENAC\\alg_prog_2\\web2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alice\\AppData\\Roaming\\NuGet\\NuGet.Config"

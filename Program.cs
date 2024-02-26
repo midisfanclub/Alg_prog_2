@@ -6,18 +6,13 @@ class Program
     {
         Console.WriteLine("##CALCULADORA##\n\n");
 
+        Calculadora calc = new Calculadora();
+        
         int opcao = 0;
 
         do
         {
-            Console.WriteLine("\nQual operação deseja realizar");
-            Console.WriteLine("[1] Adição");
-            Console.WriteLine("[2] Subtração");
-            Console.WriteLine("[3] Multiplicação");
-            Console.WriteLine("[4] Divisão\n");
-            Console.WriteLine("[0] Sair\n");
-
-            opcao = Convert.ToInt32(Console.ReadLine());
+            opcao = Calculadora.Menu();
             
             if (opcao == 0)
             {
@@ -35,19 +30,19 @@ class Program
             switch (opcao)
             {
                 case 1:
-                    resultado = n1 + n2;
+                    resultado = calc.Somar(n1, n2);
                     break;
 
                 case 2:
-                    resultado = n1 - n2;
+                    resultado = calc.Subtrair(n1, n2);
                     break;
 
                 case 3:
-                    resultado = n1 * n2;
+                    resultado = calc.Multiplicar(n1, n2);
                     break;
 
                 case 4:
-                    resultado = n1 / n2;
+                    resultado = calc.Dividir(n1, n2);
                     break;
             }
 
@@ -55,4 +50,6 @@ class Program
         
         } while (opcao != 0);
     }
+
+
 }
